@@ -1,0 +1,6 @@
+MANIFEST
+README
+Makefile.PL
+Discard.pm
+t/1.t
+examples/simple-discard-server.pl
