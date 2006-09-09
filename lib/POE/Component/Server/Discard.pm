@@ -18,13 +18,13 @@ use vars qw($VERSION);
 use constant DATAGRAM_MAXLEN => 1024;
 use constant DEFAULT_PORT => 9;
 
-$VERSION = '1.01';
+$VERSION = '1.02';
 
-sub client_input {
+sub _client_input {
   undef;
 }
 
-sub get_datagram {
+sub _get_datagram {
   my ( $kernel, $socket ) = @_[ KERNEL, ARG0 ];
 
   my $remote_address = recv( $socket, my $message = "", DATAGRAM_MAXLEN, 0 );

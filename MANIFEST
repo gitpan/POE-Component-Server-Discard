@@ -1,7 +1,10 @@
 MANIFEST
 README
 Makefile.PL
-Discard.pm
+Changes
+lib/POE/Component/Server/Discard.pm
 t/1.t
+t/2.t
+t/3.t
 examples/simple-discard-server.pl
 META.yml                                 Module meta-data (added by MakeMaker)
