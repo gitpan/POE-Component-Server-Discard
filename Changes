@@ -1,6 +1,9 @@
 POE::Component::Server::Discard
 ===============================
 
+1.04	Thu Feb 01 14:50:51 GMT 2007
+	- Makefile.PL now fully Module::Install-ified.
+
 1.03	Tue Sep 26 13:32:45 BST 2006
 	- Switched to Module::Install
 
