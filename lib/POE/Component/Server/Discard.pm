@@ -18,7 +18,7 @@ use vars qw($VERSION);
 use constant DATAGRAM_MAXLEN => 1024;
 use constant DEFAULT_PORT => 9;
 
-$VERSION = '1.04';
+$VERSION = '1.05';
 
 sub _client_input {
   undef;
