@@ -4,6 +4,8 @@ name 'POE-Component-Server-Discard';
 license 'perl';
 author 'Chris Williams <chris@bingosnet.co.uk>';
 version_from 'lib/POE/Component/Server/Discard.pm';
+abstract_from 'lib/POE/Component/Server/Discard.pm';
+build_requires 'Test::More' => 0.47;
 requires 'Carp'   => 0;
 requires 'Socket' => 0;
 requires 'POE'    => 0.38;

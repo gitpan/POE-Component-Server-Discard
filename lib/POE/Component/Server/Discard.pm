@@ -18,7 +18,7 @@ use vars qw($VERSION);
 use constant DATAGRAM_MAXLEN => 1024;
 use constant DEFAULT_PORT => 9;
 
-$VERSION = '1.05';
+$VERSION = '1.06';
 
 sub _client_input {
   undef;
@@ -37,7 +37,7 @@ __END__
 
 =head1 NAME
 
-POE::Component::Server::Discard - a POE component implementing a RFC 863 Discard server.
+POE::Component::Server::Discard - A POE component that implements an RFC 863 Discard server.
 
 =head1 SYNOPSIS
 
