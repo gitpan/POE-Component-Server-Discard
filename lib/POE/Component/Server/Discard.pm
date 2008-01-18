@@ -18,10 +18,10 @@ use vars qw($VERSION);
 use constant DATAGRAM_MAXLEN => 1024;
 use constant DEFAULT_PORT => 9;
 
-$VERSION = '1.07';
+$VERSION = '1.08';
 
 sub _client_input {
-  undef;
+  return;
 }
 
 sub _get_datagram {
@@ -53,7 +53,7 @@ POE::Component::Server::Discard - A POE component that implements an RFC 863 Dis
 =head1 DESCRIPTION
 
 POE::Component::Server::Discard implements a RFC 863 L<http://www.faqs.org/rfcs/rfc863.html> TCP/UDP discard server, using 
-L<POE|POE>. It is a class inherited from L<POE::Component::Server::Echo|POE::Component::Server::Echo>.
+L<POE>. It is a class inherited from L<POE::Component::Server::Echo>.
 
 =head1 METHODS
 
@@ -91,6 +91,6 @@ L<POE::Wheel::SocketFactory>
  
 L<POE::Component::Server::Echo>
 
-L<http://www.faqs.org/rfcs/rfc862.html>
+L<http://www.faqs.org/rfcs/rfc863.html>
 
 =cut
