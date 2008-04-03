@@ -1,6 +1,9 @@
 POE::Component::Server::Discard
 ===============================
 
+1.10	Thu Apr  3 12:43:08 BST 2008
+	- Kwalitee fixes.
+
 1.08	Fri Jan 18 10:46:33 GMT 2008
 	- Fixed test script naming
 	- Added tcp and udp tests

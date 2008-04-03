@@ -10,6 +10,7 @@
 package POE::Component::Server::Discard;
 
 use strict;
+use warnings;
 use Carp;
 use POE;
 use base qw(POE::Component::Server::Echo);
@@ -18,7 +19,7 @@ use vars qw($VERSION);
 use constant DATAGRAM_MAXLEN => 1024;
 use constant DEFAULT_PORT => 9;
 
-$VERSION = '1.08';
+$VERSION = '1.10';
 
 sub _client_input {
   return;
